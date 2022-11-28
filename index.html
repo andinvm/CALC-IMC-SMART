@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC Smartphone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="title">
+                <h2>seu start pra <br> uma vida saudável.</h2>
+            </div>
+
+            <div class="subtitle">
+                <h3> Calcule o seu IMC</h3>
+            </div>
+
+            <div class="form1">
+                <label>Nome</label>
+                <input type="text" placeholder="Digite o seu nome">
+            </div>
+
+            <div class="labels">
+                <label>Peso</label> <label>Altura</label>
+            </div>
+            <div class="form2">
+                <input type="number" id="height" placeholder="Seu peso em kg">
+                <input type="number" id="weight" placeholder="Sua altura em centimetros">
+            </div>
+            
+            <div class="buttons">
+                <div class="buttoncalc">
+                    <button  onclick = "calculate()"> CALCULAR </button>
+                </div>
+
+                <div class="buttonlimp">
+                    <button type="reset" onclick = "limp()"> LIMPAR </button>
+                </div>
+            </div>
+
+            <div class="texta">
+                <textarea name="" id="text_area" rows="8"></textarea>
+            </div>
+            
+            <div class="image">
+                <img src="./img/ILUSTRATION.png">
+            </div>
+
+        </div>    
+    </div>    
+</body>
+</html>
