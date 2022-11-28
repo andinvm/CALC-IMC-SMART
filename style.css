@@ -82,7 +82,7 @@ label {
 }
 
 .form1 input ::placeholder {
-
+    align-content: center;
 }
 
 .buttons {
