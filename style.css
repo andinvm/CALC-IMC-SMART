@@ -1,11 +1,13 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-image: url(./img/BG\ 2.png);
+    height: auto;
+    
 }
 .container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display:flex;
+    align-self: right;
+    
 }
 .title h2 {
     font-style: normal;
