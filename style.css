@@ -79,8 +79,10 @@ label {
     background: #FFFFFF;
     border-radius: 15px;
     
-    
-    
+}
+
+.form1 input ::placeholder {
+
 }
 
 .buttons {
