@@ -1,7 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-image: url(./img/BG\ 2.png);
-    height: auto;
+    height: 100%;
     
 }
 .container{
@@ -28,9 +28,8 @@ body {
 }
 
 .box {
-    position: absolute;
     width: 390px;
-    height: 96%;
+    height: 100%;
     left: 525px;
     top: 5px;
     background: #366CD8;
@@ -61,21 +60,27 @@ label {
     top: 200px;
     background: #FFFFFF;
     border-radius: 15px;
-    justify-content: center;
+    justify-content: space-between;
     align-self: center;
     margin-bottom: 15px;
+    
 }
 
 .form2 {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     margin-bottom: 15px;
+    flex-direction: row;
 }
 .form2 input {
-    width: 172px;
+    display: flex;
+    width: 160px;
     height: 55px;
     background: #FFFFFF;
     border-radius: 15px;
+    
+    
+    
 }
 
 .buttons {
